@@ -1,0 +1,174 @@
+{
+	"info": {
+		"_postman_id": "6ebd4aaf-660b-4c32-a72c-fa02f50e4493",
+		"name": "shixi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "account",
+							"value": "haixi@qq.com",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "asd123",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/demo/account/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"demo",
+						"account",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "account",
+							"value": "haixi@qq.com",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "asd123",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/demo/account/login",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"demo",
+						"account",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all account",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/demo/account/all",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"demo",
+						"account",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "studentID",
+							"value": "1905121306",
+							"type": "default"
+						},
+						{
+							"key": "name",
+							"value": "haixi",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/demo/student/add",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"demo",
+						"student",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all student",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/demo/student/all",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"demo",
+						"student",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get logs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/demo/logs/all",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"demo",
+						"logs",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
