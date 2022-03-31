@@ -19,6 +19,8 @@ java -jar target/*.jar
 
 主目录执行以下命令：
 
+mvn clean package
+
 docker-compose up
 
 ## http 接口
